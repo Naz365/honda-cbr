@@ -3,6 +3,7 @@
 *{
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 .c_bg_color{
     background-color: #264653;
 }
@@ -29,3 +30,16 @@
 .img_filter{
     filter: grayscale(100%);
   }
+  .yt-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 100px;
+    box-shadow: 1px 0px 54px -11px rgba(18, 15, 15, 0.87);
+  }
+  .yt-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
